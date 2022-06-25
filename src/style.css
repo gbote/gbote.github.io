@@ -18,6 +18,10 @@ html {
   color: var(--imp-text-color) !important;
 }
 
+.orange {
+  color: rgb(191, 87, 0);
+}
+
 button:focus {
   box-shadow: none !important;
 }
@@ -155,8 +159,8 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  height: 1.53em !important;
+  width: 4.51em !important;
 }
 
 .navbar-nav .nav-link {

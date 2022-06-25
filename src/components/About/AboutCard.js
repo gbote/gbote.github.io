@@ -8,10 +8,10 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Gerardo Rafael Bote </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br />I am a junior pursuing IMSC in Maths and Computing in BIT
-            Mesra.
+            For those reading, welcome! I am <span className="purple">Gerardo Rafael Bote </span>
+            from <span className="purple"> Houston, Texas.</span>
+            <br />I am a junior pursuing a Bachelor of Science in Computer Science from 
+            <span className="orange"> The University of Texas at Austin.</span> 
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
