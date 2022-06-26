@@ -16,7 +16,7 @@ function Home() {
               <h1 style={{ paddingBottom: 10, textAlign: "center" }} className="heading">
               Hello There!{""}
                 <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
+                👋
                 </span>
               </h1>
 
@@ -25,7 +25,7 @@ function Home() {
                 <strong className="main-name"> GERARDO RAFAEL BOTE</strong>
               </h1>
 
-              <div style={{ padding: 5, textAlign: "center" }}>
+              <div style={{ padding: 5, textAlign: "center",  }}>
                 <Type />
               </div>
             </Col>
