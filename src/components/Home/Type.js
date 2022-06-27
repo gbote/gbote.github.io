@@ -11,7 +11,6 @@ function Type() {
           "AI/ML Enthusiast",
           "Passionate CS Student",
           "Effective Technical Educator",
-          "Social Activist",
           "Human-Centered Engineer"
         ],
         autoStart: true,
