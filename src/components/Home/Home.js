@@ -13,7 +13,7 @@ function Home() {
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 10, textAlign: "center" }} className="heading">
+              <h1 style={{ paddingBottom: 10, textAlign: "left" }} className="heading">
               Hello There!{""}
                 <span className="wave" role="img" aria-labelledby="wave">
                 👋
@@ -23,9 +23,10 @@ function Home() {
               <h1 className="heading-name">
                 My name is
                 <strong className="main-name"> GERARDO RAFAEL BOTE</strong>
+                .
               </h1>
 
-              <div style={{ padding: 5, textAlign: "center",  }}>
+              <div className="custom-typewriter">
                 <Type />
               </div>
             </Col>
