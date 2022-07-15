@@ -26,8 +26,10 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="Envisage"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
+              description="Envisage is a platform for spreading awareness of anti-Asian hate. Through the publication of unique Asian cultural assets and facts/figures that depict the obstacles and burdens past and present Asian Americans face, we will spotlight Asian Americans who have created a positive impact for their own community.
+
+              Initially, we attempted to find APIs that had any relation to the Asian American community. Since we couldn’t find any, we decided to showcase the talents that many Asian Americans are capable of producing. Our app is designed in vanilla javascript, html, and css due to our rudimentary knowledge of full-stack web development."
+              link="https://envisage-1.usercspa.repl.co/"
             />
           </Col>
 
