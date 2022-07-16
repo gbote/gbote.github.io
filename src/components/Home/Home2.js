@@ -19,36 +19,38 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming when I was 15 years old starting with Java, and I loved it since... :D
+              I fell in love with programming when I was 15 years old starting with <b className="purple"> Java</b>, 
+              and ever since then, I found a knack for coding for projects that helped me develop more refined <b className="purple">problem solving skills.</b>
               <br />
-              <br />I am fluent in classics like
+              <br />
+              Specifically, I became more passionate for projects that <b className="purple">make resources more accessible</b> and <b className="purple">advocate social justice.</b>
+              <br />
+              <br />As I grew older and decided to experiment with more programming languages, I became more fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> C, C++, Javascript, and Python. </b>
               </i>
               <br />
               <br />
               My field of interests are building new &nbsp;
-              <i>
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
+                  Artificial Intelligence and Machine Learning. 
+                </b> I have also dabbled in <b className="purple">
+                  Data Science
+                </b> by trying to find interesting trends in recent datasets via <b className="purple">
+                  R.
                 </b>
-              </i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
               with <b className="purple">Node.js</b> and
-              <i>
                 <b className="purple">
                   {" "}
                   Modern Javascript Library and Frameworks
                 </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              &nbsp;like
+                <b className="purple"> React.js, jQuery, and p5.js.</b>
             </p>
           </Col>
           <Col md={4} className="myAvtar">

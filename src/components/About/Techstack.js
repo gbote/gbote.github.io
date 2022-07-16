@@ -5,9 +5,9 @@ import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiMongodb,
   DiPython,
   DiGit,
+  DiPostgresql,
 } from "react-icons/di";
 import {
   SiPytorch,
@@ -31,7 +31,7 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <DiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />

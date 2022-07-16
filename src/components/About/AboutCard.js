@@ -15,7 +15,7 @@ function AboutCard() {
             in Computational Science &amp; Engineering.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from coding, here are some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
@@ -26,6 +26,9 @@ function AboutCard() {
             </li>
             <li className="about-activity">
               <ImPointRight /> Traveling the World 🌏
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Having Fun with My Dog 🐶
             </li>
           </ul>
 
