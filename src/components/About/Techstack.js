@@ -1,52 +1,96 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiPython,
-  DiGit,
-  DiPostgresql,
-} from "react-icons/di";
-import {
-  SiPytorch,
-  SiFirebase,
-  SiNextdotjs,
+  SiPython,
+  SiJava,
+  SiPostgresql,
+  SiC,
+  SiHtml5,
+  SiCss3,
+  SiR,
+  SiDjango,
+  SiNumpy,
+  SiP5Dotjs,
+  SiNodedotjs,
+  SiJavascript,
+  SiCplusplus,
+  SiReact,
+  SiGit,
+  SiCmake,
+  SiTypescript,
+  SiGradle,
+  SiSpring,
+  SiBootstrap,
+  SiScipy,
 } from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <SiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <SiGradle />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <SiSpring />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <SiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPostgresql />
+        <SiNumpy />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <SiScipy />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <SiC />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <SiCmake />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <SiCplusplus />
+      </Col>
+      
+      
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPytorch />
+        <SiJavascript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNodedotjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiP5Dotjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiReact />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiHtml5 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCss3 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiBootstrap />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiR />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostgresql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDjango />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGit />
       </Col>
     </Row>
   );

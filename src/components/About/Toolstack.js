@@ -10,7 +10,10 @@ import {
   SiReplit,
   SiJenkins,
   SiTableau,
+  SiDialogflow,
   SiAirtable,
+  SiMicrosoftazure,
+  SiGithub,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -45,6 +48,15 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiAirtable />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDialogflow />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMicrosoftazure />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGithub />
       </Col>
     </Row>
   );

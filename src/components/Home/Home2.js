@@ -26,9 +26,7 @@ function Home2() {
               Specifically, I became more passionate for projects that <b className="purple">make resources more accessible</b> and <b className="purple">advocate social justice.</b>
               <br />
               <br />As I grew older and decided to experiment with more programming languages, I became more fluent in classics like
-              <i>
                 <b className="purple"> C, C++, Javascript, and Python. </b>
-              </i>
               <br />
               <br />
               My field of interests are building new &nbsp;
