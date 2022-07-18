@@ -22,6 +22,7 @@ import {
   SiSpring,
   SiBootstrap,
   SiScipy,
+  SiVite,
 } from "react-icons/si";
 
 function Techstack() {
@@ -70,6 +71,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiReact />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVite />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiHtml5 />

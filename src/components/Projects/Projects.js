@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.jpeg";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import envisage from "../../Assets/Projects/envisage.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -23,14 +23,13 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={envisage}
               isBlog={false}
               title="Envisage"
-              description="Envisage is a platform for spreading awareness of anti-Asian hate. Through the publication of unique Asian cultural assets and facts/figures that depict the obstacles and burdens past and present Asian Americans face, we will spotlight Asian Americans who have created a positive impact for their own community.
-
-              Initially, we attempted to find APIs that had any relation to the Asian American community. Since we couldn’t find any, we decided to showcase the talents that many Asian Americans are capable of producing. Our app is designed in vanilla javascript, html, and css due to our rudimentary knowledge of full-stack web development."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify.soumya-jit.tech"
+              description="Envisage is a platform for spreading awareness of anti-Asian hate. Through the publication of unique Asian cultural assets and facts/figures that depict the obstacles and burdens past and present Asian Americans face, the platform spotlights Asian Americans who have created a positive impact for their own community. 
+              The website was built with vanilla HTML, CSS, and JS. The chatbot was developed through Dialogflow and JS; it was integrated in popular communication apps like Line and Telegram."
+              ghLink="https://github.com/usercspa/Envisage"
+              demoLink="https://envisage-1.usercspa.repl.co/"
             />
           </Col>
 
