@@ -2,12 +2,16 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
 import envisage from "../../Assets/Projects/envisage.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import connect2health from "../../Assets/Projects/connect2health.png";
+import pokemontheme from "../../Assets/Projects/pokemontheme.png";
+import palindrome from "../../Assets/Projects/palindrome.png";
+import temperature from "../../Assets/Projects/temperature.png";
+import hangman from "../../Assets/Projects/hangman.png";
+import news from "../../Assets/Projects/news.png";
+import carsandbrands from "../../Assets/Projects/carsandbrands.png";
+import securetodo from "../../Assets/Projects/securetodo.png";
+import forum from "../../Assets/Projects/forum.png";
 
 function Projects() {
   return (
@@ -15,10 +19,10 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Projects &amp; Works </strong>
+          My Recent <strong className="purple">SWE Projects &amp; Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I have worked on in the past two years.
+          Here are a few projects I have worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -35,59 +39,114 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={connect2health}
               isBlog={false}
               title="Connect2Health"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              description="Connect2Health is a website that provides information about public healthcare and hospital locations in proximity to the user's input in the United States. It also offers
+              a hub of resources about topics such as COVID-19 and Medicare. Many of these topics can be discussed through a chat bot implemented via Microsoft Azure. The Google Maps API along with vanilla front-end technologies
+              were used to build the website."
+              ghLink="https://github.com/gbote/Connect2Health"
+              demoLink="https://connect2health.cmdk07.repl.co"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={pokemontheme}
               isBlog={false}
               title="Pokemon Theme Team"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/" 
+              description="Pokemon Theme Team is a Heroku app built with a Django backend framework that uses the RESTful PokéAPI to generate 6 different Pokémon of similar type. The app uses vanilla HTML, CSS, and JS to construct its UI.
+              In fact, if you type a number after the link provided, you can generate a team based on a certain Pokémon's unique ID number."
+              ghLink="https://github.com/gbote/Pokemon-Theme-Team"
+              demoLink="https://pokemonthemeteam.herokuapp.com/" 
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={hangman}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Hangman Game"
+              description="Pokemon Theme Team is a Heroku app built with a Django backend framework that uses the RESTful PokéAPI to generate 6 different Pokémon of similar type. The app uses vanilla HTML, CSS, and JS to construct its UI.
+              In fact, if you type a number after the link provided, you can generate a team based on a certain Pokémon's unique ID number."
+              ghLink="https://github.com/gbote/Pokemon-Theme-Team"
+              demoLink="https://pokemonthemeteam.herokuapp.com/" 
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={temperature}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Temperature Conversion App"
+              description="Pokemon Theme Team is a Heroku app built with a Django backend framework that uses the RESTful PokéAPI to generate 6 different Pokémon of similar type. The app uses vanilla HTML, CSS, and JS to construct its UI.
+              In fact, if you type a number after the link provided, you can generate a team based on a certain Pokémon's unique ID number."
+              ghLink="https://github.com/gbote/Pokemon-Theme-Team"
+              demoLink="https://pokemonthemeteam.herokuapp.com/" 
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={palindrome}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Palindrome Checker"
+              description="Pokemon Theme Team is a Heroku app built with a Django backend framework that uses the RESTful PokéAPI to generate 6 different Pokémon of similar type. The app uses vanilla HTML, CSS, and JS to construct its UI.
+              In fact, if you type a number after the link provided, you can generate a team based on a certain Pokémon's unique ID number."
+              ghLink="https://github.com/gbote/Pokemon-Theme-Team"
+              demoLink="https://pokemonthemeteam.herokuapp.com/" 
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={carsandbrands}
+              isBlog={false}
+              title="Cars &amp; Brands CRUD App"
+              description="Pokemon Theme Team is a Heroku app built with a Django backend framework that uses the RESTful PokéAPI to generate 6 different Pokémon of similar type. The app uses vanilla HTML, CSS, and JS to construct its UI.
+              In fact, if you type a number after the link provided, you can generate a team based on a certain Pokémon's unique ID number."
+              ghLink="https://github.com/gbote/Pokemon-Theme-Team"
+              demoLink="https://pokemonthemeteam.herokuapp.com/" 
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={forum}
+              isBlog={false}
+              title="&quot;Online&quot; Forum"
+              description="Pokemon Theme Team is a Heroku app built with a Django backend framework that uses the RESTful PokéAPI to generate 6 different Pokémon of similar type. The app uses vanilla HTML, CSS, and JS to construct its UI.
+              In fact, if you type a number after the link provided, you can generate a team based on a certain Pokémon's unique ID number."
+              ghLink="https://github.com/gbote/Pokemon-Theme-Team"
+              demoLink="https://pokemonthemeteam.herokuapp.com/" 
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={securetodo}
+              isBlog={false}
+              title="Secure To-Do List"
+              description="Pokemon Theme Team is a Heroku app built with a Django backend framework that uses the RESTful PokéAPI to generate 6 different Pokémon of similar type. The app uses vanilla HTML, CSS, and JS to construct its UI.
+              In fact, if you type a number after the link provided, you can generate a team based on a certain Pokémon's unique ID number."
+              ghLink="https://github.com/gbote/Pokemon-Theme-Team"
+              demoLink="https://pokemonthemeteam.herokuapp.com/" 
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={news}
+              isBlog={false}
+              title="Top Trending News Site"
+              description="Pokemon Theme Team is a Heroku app built with a Django backend framework that uses the RESTful PokéAPI to generate 6 different Pokémon of similar type. The app uses vanilla HTML, CSS, and JS to construct its UI.
+              In fact, if you type a number after the link provided, you can generate a team based on a certain Pokémon's unique ID number."
+              ghLink="https://github.com/gbote/Pokemon-Theme-Team"
+              demoLink="https://pokemonthemeteam.herokuapp.com/" 
+            />
+          </Col>
+
+          
         </Row>
       </Container>
     </Container>
