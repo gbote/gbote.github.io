@@ -55,7 +55,7 @@ function Projects() {
               imgPath={pokemontheme}
               isBlog={false}
               title="Pokemon Theme Team"
-              description="Pokemon Theme Team is a Heroku app built with a Django backend framework that uses the RESTful PokéAPI to generate 6 different Pokémon of similar type. The app uses vanilla HTML, CSS, and JS to construct its UI.
+              description="Pokemon Theme Team is a Heroku app built with a Django backend framework that uses the RESTful PokéAPI to generate 6 different Pokémon of similar type. The app uses vanilla HTML, CSS, and JS to construct its user interface (UI).
               In fact, if you type a number after the link provided, you can generate a team based on a certain Pokémon's unique ID number."
               ghLink="https://github.com/gbote/Pokemon-Theme-Team"
               demoLink="https://pokemonthemeteam.herokuapp.com/" 
@@ -67,10 +67,10 @@ function Projects() {
               imgPath={hangman}
               isBlog={false}
               title="Hangman Game"
-              description="Pokemon Theme Team is a Heroku app built with a Django backend framework that uses the RESTful PokéAPI to generate 6 different Pokémon of similar type. The app uses vanilla HTML, CSS, and JS to construct its UI.
-              In fact, if you type a number after the link provided, you can generate a team based on a certain Pokémon's unique ID number."
-              ghLink="https://github.com/gbote/Pokemon-Theme-Team"
-              demoLink="https://pokemonthemeteam.herokuapp.com/" 
+              description="My Hangman Game was the first ever React project I made using the React framework. I also experimented with using Vite as a supplement in helping build React projects, which I found helpful.
+              As per the README.md file, I created the app's required components and integrated a given JSON array of words to supply the game with. In later releases, I changed the code such that 1) words come from the Random Word API and 2) 7 incorrect guesses result in a game over. Additionally, to make the UI more pleasing to the eye, I customized my own CSS files to my liking."
+              ghLink="https://github.com/gbote/CodePlatoon/tree/main/react-hangman"
+              demoLink="https://https://hangman-kappa.vercel.app/" 
             />
           </Col>
 
@@ -79,10 +79,10 @@ function Projects() {
               imgPath={temperature}
               isBlog={false}
               title="Temperature Conversion App"
-              description="Pokemon Theme Team is a Heroku app built with a Django backend framework that uses the RESTful PokéAPI to generate 6 different Pokémon of similar type. The app uses vanilla HTML, CSS, and JS to construct its UI.
-              In fact, if you type a number after the link provided, you can generate a team based on a certain Pokémon's unique ID number."
-              ghLink="https://github.com/gbote/Pokemon-Theme-Team"
-              demoLink="https://pokemonthemeteam.herokuapp.com/" 
+              description="The Temperature Conversion App takes in any U.S. ZIP Code and outputs the current temperature at that location to the nearest 2 decimal places. It is also both in the Celcius and Fahrenheit scales.
+              Similar to the Hangman Game, I implemented an API called the OpenWeather API to gather the correct information for a certain ZIP Code's temperature. Due to time constraints, I wish I included more information regarding the humidity and wind speeds of a ZIP Code. This project was also configured under the Vite/React framework."
+              ghLink="https://github.com/gbote/CodePlatoon/tree/main/react-temperature-conversion"
+              demoLink="https://temperature-converter-ten.vercel.app/" 
             />
           </Col>
 
@@ -91,10 +91,10 @@ function Projects() {
               imgPath={palindrome}
               isBlog={false}
               title="Palindrome Checker"
-              description="Pokemon Theme Team is a Heroku app built with a Django backend framework that uses the RESTful PokéAPI to generate 6 different Pokémon of similar type. The app uses vanilla HTML, CSS, and JS to construct its UI.
-              In fact, if you type a number after the link provided, you can generate a team based on a certain Pokémon's unique ID number."
-              ghLink="https://github.com/gbote/Pokemon-Theme-Team"
-              demoLink="https://pokemonthemeteam.herokuapp.com/" 
+              description="Palindrome Checker is an app improved upon a design prototype built using Vite &amp; React that takes in a word via a text box, captures that typed word, and outputs whether or not that word is a palindrome.
+              Similar to the design and interface of Pokemon Theme Team, I used different colors to make the UI more appealing, including highlighting the typed word. "
+              ghLink="https://github.com/gbote/CodePlatoon/tree/main/react-palindrome"
+              demoLink="https://palindrome-checker-omega.vercel.app/" 
             />
           </Col>
 
@@ -103,10 +103,9 @@ function Projects() {
               imgPath={carsandbrands}
               isBlog={false}
               title="Cars &amp; Brands CRUD App"
-              description="Pokemon Theme Team is a Heroku app built with a Django backend framework that uses the RESTful PokéAPI to generate 6 different Pokémon of similar type. The app uses vanilla HTML, CSS, and JS to construct its UI.
-              In fact, if you type a number after the link provided, you can generate a team based on a certain Pokémon's unique ID number."
-              ghLink="https://github.com/gbote/Pokemon-Theme-Team"
-              demoLink="https://pokemonthemeteam.herokuapp.com/" 
+              description="The Cars &amp; Brands CRUD App is my first ever Django project dealing with a SQL Database. Given the recommended steps in creating a database, I experimented with PostgreSQL and its numerous functions to create and manipulate databases to my liking.
+              Unfortunately, the only issue I encountered when trying to publish this project is trying to establish a new database under Heroku deployment. If given more time, I would deploy the backend project with a template database so that each user's listed cars and brands are shown properly."
+              ghLink="https://github.com/gbote/CodePlatoon/tree/main/django-cars-and-brands"
             />
           </Col>
 
@@ -115,10 +114,10 @@ function Projects() {
               imgPath={forum}
               isBlog={false}
               title="&quot;Online&quot; Forum"
-              description="Pokemon Theme Team is a Heroku app built with a Django backend framework that uses the RESTful PokéAPI to generate 6 different Pokémon of similar type. The app uses vanilla HTML, CSS, and JS to construct its UI.
-              In fact, if you type a number after the link provided, you can generate a team based on a certain Pokémon's unique ID number."
-              ghLink="https://github.com/gbote/Pokemon-Theme-Team"
-              demoLink="https://pokemonthemeteam.herokuapp.com/" 
+              description="I created an &quot;Online&quot; Forum that allows the end user to create posts and comment on pre-existing posts. Given the nature of the program running a NoSQL database and only using CSV files to persist with the data, the program may be glitchy and sometimes might not display customly added posts and comments.
+              Originally a text-based Python program, I had to refactor many code snippets into making sure they comply with Django framework standards, including modifying view handlers, templates, and routing. Also, I experimented with Bootstrap, which allowed the UI to look more appealing."
+              ghLink="https://github.com/gbote/Online-Web-Forum"
+              demoLink="https://myownonlineforum.herokuapp.com/" 
             />
           </Col>
 
@@ -127,10 +126,9 @@ function Projects() {
               imgPath={securetodo}
               isBlog={false}
               title="Secure To-Do List"
-              description="Pokemon Theme Team is a Heroku app built with a Django backend framework that uses the RESTful PokéAPI to generate 6 different Pokémon of similar type. The app uses vanilla HTML, CSS, and JS to construct its UI.
-              In fact, if you type a number after the link provided, you can generate a team based on a certain Pokémon's unique ID number."
-              ghLink="https://github.com/gbote/Pokemon-Theme-Team"
-              demoLink="https://pokemonthemeteam.herokuapp.com/" 
+              description="Another Django project that I implemented was a To-Do List that required a user's e-mail and password to log in into their current To-Do items. I was able to figure out how to keep a dictionary of users' e-mails and their respective passwords.
+              At this point, I was more comfortable with dealing with SQL Databases and figuring out how to deal with different relationships (i.e., one-to-one, one-to-many, many-to-many) in Django Object-Relational Mappers (ORMs). Again, similar to the Cars &amp; Brands CRUD App, I could not figure out how to make a template database for Heroku deployment; if given more time, I would love for this issue to be resolved."
+              ghLink="https://github.com/gbote/CodePlatoon/tree/main/django-to-do"
             />
           </Col>
 
@@ -139,10 +137,10 @@ function Projects() {
               imgPath={news}
               isBlog={false}
               title="Top Trending News Site"
-              description="Pokemon Theme Team is a Heroku app built with a Django backend framework that uses the RESTful PokéAPI to generate 6 different Pokémon of similar type. The app uses vanilla HTML, CSS, and JS to construct its UI.
-              In fact, if you type a number after the link provided, you can generate a team based on a certain Pokémon's unique ID number."
-              ghLink="https://github.com/gbote/Pokemon-Theme-Team"
-              demoLink="https://pokemonthemeteam.herokuapp.com/" 
+              description="This Top Trending News Site is my second major Vite/React project in a while, where I had to integrate the Hacker News API (i.e., a Firebase containing JSON objects of HN articles).
+              Unfortunately, some of these JSON objects do not contain a URL tag, leading to some of the links being broken. Nevertheless, I figured out how to route different types of articles via a Navigation Bar and listed important information of an article, like its publication date. If given more time, I would like to implement a search bar that searches for key matches in the articles' titles."
+              ghLink="https://github.com/gbote/News-Site"
+              demoLink="https://news-site-coral.vercel.app/" 
             />
           </Col>
 
