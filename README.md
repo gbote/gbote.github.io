@@ -16,7 +16,7 @@
 
 ## Introduction 👋
 
-I would like to thank Soumyajit Behera and other contributors to his repository for providing the template to this portfolio website. The modifications of many files allowed me to learn new Front-End App Developing skills that I can transfer to SWE jobs in the industry! If you want to obtain your own portfolio template, you can fork his repo to modify and make changes of your own. Please give him proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thank you, again!
+I would like to thank **Soumyajit Behera** and other contributors to his repository for providing the template to this portfolio website. The modifications of many files allowed me to learn new Front-End App Developing skills that I can transfer to SWE jobs in the industry! If you want to obtain your own portfolio template, you can fork his repo to modify and make changes of your own. Please give him proper credit by linking back to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thank you, again!
 
 ## Technologies Used
 
