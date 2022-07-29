@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9a097d16.css",
+    "main.js": "/static/js/main.1e464149.js",
+    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/temperature.png": "/static/media/temperature.c1679c6b894d78afe7ec.png",
+    "static/media/envisage.png": "/static/media/envisage.20b024e1634814a72dfb.png",
+    "static/media/home-main.png": "/static/media/home-main.3aa9a4cf2d0cdbcf5e96.png",
+    "static/media/about.png": "/static/media/about.92ba1c3d8b4f5ee52ee4.png",
+    "static/media/connect2health.png": "/static/media/connect2health.c8b215cca4e13fa400fc.png",
+    "static/media/pokemontheme.png": "/static/media/pokemontheme.57e64cdaf6f94a6fdfb0.png",
+    "static/media/Bote_Gerardo_Rafael_Technical_Resume.pdf": "/static/media/Bote_Gerardo_Rafael_Technical_Resume.34b194b988e18f57c4b7.pdf",
+    "static/media/news.png": "/static/media/news.bcea1c14973041760da4.png",
+    "static/media/palindrome.png": "/static/media/palindrome.057099c16b8ea5d160b3.png",
+    "static/media/forum.png": "/static/media/forum.e2c02f75b7e8a1863470.png",
+    "static/media/securetodo.png": "/static/media/securetodo.6da0cdb8a0e4a45c9719.png",
+    "static/media/home-bg.jpg": "/static/media/home-bg.3dda255cb59c26894b4a.jpg",
+    "static/media/hangman.png": "/static/media/hangman.4c84dc817f3f6e5acc64.png",
+    "static/media/carsandbrands.png": "/static/media/carsandbrands.319c4da7c3a5cbaa3b7b.png",
+    "static/media/logo.png": "/static/media/logo.e7975ec0b3cfd1f620a3.png",
+    "static/media/avatar.svg": "/static/media/avatar.e7c7f28457e8055186b9c131bd4b34bb.svg",
+    "index.html": "/index.html",
+    "static/media/pre.svg": "/static/media/pre.c31ebe15f748a7cc3b1c.svg",
+    "main.9a097d16.css.map": "/static/css/main.9a097d16.css.map",
+    "main.1e464149.js.map": "/static/js/main.1e464149.js.map",
+    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a097d16.css",
+    "static/js/main.1e464149.js"
+  ]
+}
