@@ -286,6 +286,7 @@ button:focus {
 
 .custom-typewriter {
   padding-left: 50px !important;
+  text-align: left;
 }
 
 .main-name {

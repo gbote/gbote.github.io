@@ -24,7 +24,7 @@ function ProjectCards(props) {
           {!props.isBlog && props.demoLink &&
               <Button variant="primary" href={props.demoLink} target="_blank">
                 <BiLinkExternal /> &nbsp;
-                {"View Demo"}
+                {props.isVideoDemo ? "View Video Demo" : "View Demo"}
               </Button>  
             }
           
