@@ -10,9 +10,9 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             For those reading, welcome! I am <span className="purple">Gerardo Rafael Bote </span>
             from <span className="purple"> Houston, Texas.</span>
-            <br />I am a junior pursuing a Bachelor of Science in Computer Science from 
+            <br />I am a senior pursuing a Bachelor of Science in Computer Science and a Bachelor of Science and Arts in Mathematics from 
             <span className="orange"> The University of Texas at Austin.</span> I am also pursing a minor in Business and a certificate
-            in Computational Science &amp; Engineering.
+            in Applied Statistical Modeling.
             <br />
             <br />
             Apart from coding, here are some other activities that I love to do!
